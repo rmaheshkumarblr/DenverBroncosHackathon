@@ -6,10 +6,9 @@
 We wanted to build a product that is useful and productive. A product that has multiple functionality and can help a person in his day to day activity. 
 
 ## What it does
-
-* We as students tend to play a lot and [Akinator](http://en.akinator.com/) was one of them. It has no API but it is a very interesting game which asks questions to figure out the person whom you were thinking about. Generally, if the person is famous and questions are asked appropriately, it can figure out the person in 20 questions, hence we decided to name the Alexa Skillset as Twenty Questions. We use SendGrid API to send  the set of Questions, Answers and person Imagined over mail.
+* Twenty questions is a fun, casual  party game where you think of a personality and your opponent tries to guess it by asking you a series of questions that can be answered using "Yes","No" or "Don't know". We built an Alexa skillset that plays this game with near perfect accuracy. For this we built an API from scratch for the popular [Akinator](http://en.akinator.com/) website and used it as a service that Alexa can query.We use the SendGrid API to send  the set of Questions, Answers and the personality over mail.
 * We wanted to use Hardware since we have generally not used them before. We wanted to do something with Sphero and RaspberryPi. Our complete setup including the server is based on RaspberryPi. We are able to control Sphero to some extent and a LED from Alexa (IOT).
-* We build an Alexa Skillset to get Optimized Route Information from MapQuest API. You can get information such as Fuel Consumptions, Toll Information, Distance and the Narrative Instructions through Alexa
+* We build an Alexa Skillset to get Optimized Route Information from MapQuest API. You can get information such as Fuel Consumptions, Toll Information, Distance and the Narrative Instructions through Alexa.
 
 ## How we built it
 
